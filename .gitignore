@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Extracted PowerPoint files (temporary)
+*_extracted/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.code-workspace

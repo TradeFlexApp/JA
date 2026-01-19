@@ -1,0 +1,8 @@
+{
+  "name": "ja-alberta-north",
+  "version": "1.0.0",
+  "description": "JA Alberta North Weekly Scroll Slideshow",
+  "scripts": {
+    "dev": "npx serve -l 3000"
+  }
+}
