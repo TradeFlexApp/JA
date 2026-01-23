@@ -85,6 +85,60 @@
             </ul>
           </article>
 
+          <!-- Icebreaker Flip Card -->
+          <div class="flip-card" data-animate="reveal">
+            <div class="flip-card-inner">
+              <!-- Front Side -->
+              <div class="flip-card-front" style="background: linear-gradient(135deg, rgba(0, 207, 255, 0.3), rgba(0, 136, 204, 0.2)); border: 2px solid #00cfff; box-shadow: 0 0 40px rgba(0, 207, 255, 0.3);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 24px; padding: 20px 0;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 64 64" style="flex-shrink: 0;">
+                    <!-- Iceberg above water -->
+                    <polygon points="32,4 48,28 42,28 46,38 16,38 20,28 14,28" fill="#00cfff" style="filter: drop-shadow(0 0 12px rgba(0,207,255,0.9));"/>
+                    <!-- Iceberg below water (larger) -->
+                    <polygon points="46,38 50,48 44,52 48,60 16,60 20,52 14,48 18,38" fill="#0088cc" style="filter: drop-shadow(0 0 8px rgba(0,136,204,0.7));"/>
+                    <!-- Water line -->
+                    <line x1="8" y1="38" x2="56" y2="38" stroke="#00cfff" stroke-width="2" stroke-dasharray="4,2"/>
+                  </svg>
+                  <a href="https://www.youtube.com/shorts/8pCOaOHVfUY" target="_blank" style="text-decoration: none;">
+                    <h2 style="margin: 0; font-size: 3rem; font-weight: 700; color: #fff; text-shadow: 0 0 25px rgba(0,207,255,1), 0 0 50px rgba(0,207,255,0.6); transition: all 0.2s ease;">Icebreaker</h2>
+                  </a>
+                </div>
+                <button class="flip-btn" onclick="this.closest('.flip-card').classList.toggle('flipped')">
+                  <span>Flip for Question</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 1l4 4-4 4"/>
+                    <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                    <path d="M7 23l-4-4 4-4"/>
+                    <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                  </svg>
+                </button>
+              </div>
+              <!-- Back Side -->
+              <div class="flip-card-back" style="background: linear-gradient(135deg, rgba(0, 136, 204, 0.4), rgba(0, 207, 255, 0.2)); border: 2px solid #00cfff; box-shadow: 0 0 40px rgba(0, 207, 255, 0.3);">
+                <h2 style="margin: 0 0 20px 0; font-size: 2rem; font-weight: 700; color: #00cfff; text-shadow: 0 0 20px rgba(0,207,255,0.8);">❓ Icebreaker Question</h2>
+                <div style="text-align: left; color: #fff; line-height: 1.8;">
+                  <p style="font-size: 1.4rem; margin: 0 0 16px 0;"><strong style="color: #00cfff;">1.</strong> Do you feel like you're taught what it means to be a man nowadays?</p>
+                  <p style="font-size: 1.4rem; margin: 0;"><strong style="color: #00cfff;">2.</strong> Is the phrase "be a man" viewed as a negative or positive phrase in society now? And why?</p>
+                </div>
+                <button class="flip-btn" onclick="this.closest('.flip-card').classList.toggle('flipped')">
+                  <span>Flip Back</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 1l4 4-4 4"/>
+                    <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                    <path d="M7 23l-4-4 4-4"/>
+                    <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- What is a Business at Its Core -->
+          <article class="card card--wide" data-animate="reveal">
+            <h2 class="card__title">What is a Business at Its Core?</h2>
+            <p class="card__text">It's a system that delivers a product or service in exchange for money.</p>
+          </article>
+
           <!-- Code of Ethics -->
           <article class="card card--wide" data-animate="reveal">
             <h2 class="card__title">JA Company Code of Ethics</h2>
@@ -233,13 +287,18 @@
             </ul>
           </article>
 
-          <!-- Next Steps -->
-          <article class="card" data-animate="reveal">
-            <h2 class="card__title">Questions &amp; Next Steps</h2>
+          <!-- Group Product Mastermind -->
+          <article class="card card--wide" data-animate="reveal">
+            <h2 class="card__title">Group Product/Service Mastermind</h2>
+            <p class="card__text"><strong>Step 1:</strong> Write as many life or business problems as you can.</p>
+            <p class="card__text"><strong>Step 2:</strong> Take one problem and write as many solutions (either a product or service) to that problem.</p>
+            <p class="card__text"><strong>Step 3:</strong> Pick one solution to one of the problems. Then create a product or service and write a <strong>60–90 second pitch</strong> about:</p>
             <ul class="list">
-              <li>Complete/return all forms</li>
-              <li>Begin the Product or Service Research Assignment</li>
-              <li>Complete the "What's Your Leadership Style?" Quiz on JA Campus before next session</li>
+              <li>What your product is</li>
+              <li>What its name is</li>
+              <li>What your target audience is</li>
+              <li>How much it costs</li>
+              <li>Why you should pick them</li>
             </ul>
           </article>
         </div>
@@ -281,8 +340,55 @@
             </div>
           </article>
 
+          <!-- Icebreaker Flip Card -->
+          <div class="flip-card" data-animate="reveal">
+            <div class="flip-card-inner">
+              <!-- Front Side (Question) -->
+              <div class="flip-card-front" style="background: linear-gradient(135deg, rgba(0, 136, 204, 0.4), rgba(0, 207, 255, 0.2)); border: 2px solid #00cfff; box-shadow: 0 0 40px rgba(0, 207, 255, 0.3);">
+                <h2 style="margin: 0 0 20px 0; font-size: 2rem; font-weight: 700; color: #00cfff; text-shadow: 0 0 20px rgba(0,207,255,0.8);">❓ Icebreaker Question</h2>
+                <div style="text-align: left; color: #fff; line-height: 1.8;">
+                  <p style="font-size: 1.4rem; margin: 0;">What is the purpose of being a man?</p>
+                </div>
+                <button class="flip-btn" onclick="this.closest('.flip-card').classList.toggle('flipped')">
+                  <span>Flip Back</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 1l4 4-4 4"/>
+                    <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                    <path d="M7 23l-4-4 4-4"/>
+                    <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                  </svg>
+                </button>
+              </div>
+              <!-- Back Side (Iceberg) -->
+              <div class="flip-card-back" style="background: linear-gradient(135deg, rgba(0, 207, 255, 0.3), rgba(0, 136, 204, 0.2)); border: 2px solid #00cfff; box-shadow: 0 0 40px rgba(0, 207, 255, 0.3);">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 24px; padding: 20px 0;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 64 64" style="flex-shrink: 0;">
+                    <!-- Iceberg above water -->
+                    <polygon points="32,4 48,28 42,28 46,38 16,38 20,28 14,28" fill="#00cfff" style="filter: drop-shadow(0 0 12px rgba(0,207,255,0.9));"/>
+                    <!-- Iceberg below water (larger) -->
+                    <polygon points="46,38 50,48 44,52 48,60 16,60 20,52 14,48 18,38" fill="#0088cc" style="filter: drop-shadow(0 0 8px rgba(0,136,204,0.7));"/>
+                    <!-- Water line -->
+                    <line x1="8" y1="38" x2="56" y2="38" stroke="#00cfff" stroke-width="2" stroke-dasharray="4,2"/>
+                  </svg>
+                  <a href="https://www.youtube.com/shorts/D7qH0SB_2DE" target="_blank" style="text-decoration: none;">
+                    <h2 style="margin: 0; font-size: 3rem; font-weight: 700; color: #fff; text-shadow: 0 0 25px rgba(0,207,255,1), 0 0 50px rgba(0,207,255,0.6); transition: all 0.2s ease;">Icebreaker</h2>
+                  </a>
+                </div>
+                <button class="flip-btn" onclick="this.closest('.flip-card').classList.toggle('flipped')">
+                  <span>Flip for Question</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 1l4 4-4 4"/>
+                    <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                    <path d="M7 23l-4-4 4-4"/>
+                    <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
           <!-- Group Norms -->
-          <article class="card" data-animate="reveal">
+          <article class="card card--wide" data-animate="reveal">
             <h2 class="card__title">What is Norming?</h2>
             <p class="card__text">A <strong>norm</strong> is an informal guideline about what is considered normal social behavior in a particular group.</p>
             <p class="card__text"><strong>5 Stages of Group Development:</strong></p>
@@ -443,7 +549,16 @@
               <li>VP Production</li>
               <li>VP Technology</li>
             </ul>
-            <p class="card__text"><strong>Optional:</strong> VP Corporate Social Responsibility &amp; Ethics</p>
+            <p class="card__text"><strong>Optional:</strong> Vice President, VP Corporate Social Responsibility &amp; Ethics</p>
+          </article>
+
+          <!-- Styles of Leadership -->
+          <article class="card" data-animate="reveal">
+            <h2 class="card__title">Styles of Leadership</h2>
+            <ul class="list">
+              <li>What makes a good leader?</li>
+              <li>What is your leadership style?</li>
+            </ul>
           </article>
 
           <!-- Prototyping -->
@@ -468,6 +583,115 @@
               <li><strong>R</strong> = Relevant — Why is your goal really important to you? How will you persevere when it gets hard?</li>
               <li><strong>T</strong> = Timely — When will you cross the finish line? What pace will you set?</li>
             </ul>
+          </article>
+
+          <!-- Social Media Guidelines -->
+          <article class="card" data-animate="reveal">
+            <h2 class="card__title">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 10px; color: #0a66c2;">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              Social Media Guidelines
+            </h2>
+          </article>
+
+          <!-- Human-Centered Design -->
+          <article class="card" data-animate="reveal">
+            <h2 class="card__title">Human-Centered Design</h2>
+            <ul class="list">
+              <li>Grounds innovation in a rich understanding of human needs</li>
+              <li>Understanding problems first before investing in solutions</li>
+              <li>Creates holistic innovation concepts that make the future tangible with realistic goals and deadlines to inspire action</li>
+            </ul>
+          </article>
+
+          <!-- Venn Diagram -->
+          <article class="card card--wide" data-animate="reveal">
+            <h2 class="card__title">Are you doing what you do because you can or because you should?</h2>
+            <div style="display: flex; justify-content: center; padding: 40px 0;">
+              <svg viewBox="0 0 700 650" width="100%" height="650" style="max-width: 800px;">
+                <!-- Desirable Circle (Top) - Purple -->
+                <circle cx="350" cy="200" r="180" fill="rgba(191, 90, 242, 0.4)" stroke="#bf5af2" stroke-width="5"/>
+                <!-- Feasible Circle (Bottom Left) - Green -->
+                <circle cx="230" cy="420" r="180" fill="rgba(48, 209, 88, 0.4)" stroke="#30d158" stroke-width="5"/>
+                <!-- Viable Circle (Bottom Right) - Cyan -->
+                <circle cx="470" cy="420" r="180" fill="rgba(0, 255, 255, 0.4)" stroke="#00ffff" stroke-width="5"/>
+                
+                <!-- Desirable Label (inside top circle) -->
+                <text x="350" y="120" text-anchor="middle" fill="#bf5af2" font-size="36" font-weight="700" style="text-shadow: 0 0 15px rgba(191,90,242,0.9), 0 0 30px rgba(191,90,242,0.6);">DESIRABLE</text>
+                <text x="350" y="160" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">What is desirable from</text>
+                <text x="350" y="190" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">a human perspective?</text>
+                
+                <!-- Feasible Label (inside bottom-left circle) -->
+                <text x="150" y="460" text-anchor="middle" fill="#30d158" font-size="36" font-weight="700" style="text-shadow: 0 0 15px rgba(48,209,88,0.9), 0 0 30px rgba(48,209,88,0.6);">FEASIBLE</text>
+                <text x="150" y="500" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">What is feasible from</text>
+                <text x="150" y="530" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">a capability perspective?</text>
+                
+                <!-- Viable Label (inside bottom-right circle) -->
+                <text x="550" y="460" text-anchor="middle" fill="#00ffff" font-size="36" font-weight="700" style="text-shadow: 0 0 15px rgba(0,255,255,0.9), 0 0 30px rgba(0,255,255,0.6);">VIABLE</text>
+                <text x="550" y="500" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">What is viable from</text>
+                <text x="550" y="530" text-anchor="middle" fill="#fff" font-size="22" font-weight="600" style="text-shadow: 0 0 10px rgba(0,0,0,0.9);">a business perspective?</text>
+                
+                <!-- Center Label - INNOVATION -->
+                <text x="350" y="340" text-anchor="middle" fill="#fff" font-size="32" font-weight="700" style="text-shadow: 0 0 20px rgba(255,255,255,1), 0 0 40px rgba(191,90,242,0.8), 0 0 60px rgba(48,209,88,0.6);">INNOVATION</text>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Einstein Quote -->
+          <article class="card" data-animate="reveal">
+            <div class="quote">
+              <p class="quote__text">"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions."</p>
+              <p class="quote__meta">— Albert Einstein</p>
+            </div>
+          </article>
+
+          <!-- Learning Curve U-Graph -->
+          <article class="card card--wide" data-animate="reveal">
+            <h2 class="card__title">The Learning Curve</h2>
+            <div style="display: flex; justify-content: center; padding: 50px 0;">
+              <svg viewBox="0 0 900 650" width="100%" height="700" style="max-width: 950px;">
+                <!-- U-shaped curve -->
+                <path d="M 100 100 
+                         Q 100 500, 450 540 
+                         Q 800 500, 800 100" 
+                      fill="none" 
+                      stroke="url(#curveGradient)" 
+                      stroke-width="8" 
+                      stroke-linecap="round"/>
+                
+                <!-- Gradient for the curve -->
+                <defs>
+                  <linearGradient id="curveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#30d158"/>
+                    <stop offset="30%" style="stop-color:#ff9500"/>
+                    <stop offset="50%" style="stop-color:#ff453a"/>
+                    <stop offset="70%" style="stop-color:#ff9500"/>
+                    <stop offset="100%" style="stop-color:#30d158"/>
+                  </linearGradient>
+                </defs>
+                
+                <!-- Point 1: Top Left - "Wow, this looks easy!" -->
+                <circle cx="100" cy="100" r="16" fill="#30d158" style="filter: drop-shadow(0 0 10px rgba(48,209,88,0.8));"/>
+                <text x="130" y="60" fill="#30d158" font-size="28" font-weight="700" style="text-shadow: 0 0 15px rgba(48,209,88,0.9);">"Wow, this looks easy!"</text>
+                
+                <!-- Point 2: Slightly down - "Wow, this is kind of hard." -->
+                <circle cx="160" cy="260" r="16" fill="#ffd60a" style="filter: drop-shadow(0 0 10px rgba(255,214,10,0.8));"/>
+                <text x="190" y="250" fill="#ffd60a" font-size="26" font-weight="700" style="text-shadow: 0 0 15px rgba(255,214,10,0.9);">"Wow, this is kind of hard."</text>
+                
+                <!-- Point 3: Bottom - "This is impossible!" -->
+                <circle cx="450" cy="540" r="18" fill="#ff453a" style="filter: drop-shadow(0 0 15px rgba(255,69,58,0.9));"/>
+                <text x="450" y="610" text-anchor="middle" fill="#ff453a" font-size="32" font-weight="700" style="text-shadow: 0 0 20px rgba(255,69,58,1);">"This is impossible!"</text>
+                
+                <!-- Point 4: Middle Right going up - "This is getting easier." -->
+                <circle cx="700" cy="280" r="16" fill="#ff9500" style="filter: drop-shadow(0 0 10px rgba(255,149,0,0.8));"/>
+                <text x="480" y="320" fill="#ff9500" font-size="26" font-weight="700" style="text-shadow: 0 0 15px rgba(255,149,0,0.9);">"This is getting easier."</text>
+                
+                <!-- Point 5: Top Right - "This is easy." -->
+                <circle cx="800" cy="100" r="16" fill="#30d158" style="filter: drop-shadow(0 0 10px rgba(48,209,88,0.8));"/>
+                <text x="600" y="60" fill="#30d158" font-size="28" font-weight="700" style="text-shadow: 0 0 15px rgba(48,209,88,0.9);">"This is easy."</text>
+              </svg>
+            </div>
           </article>
 
           <!-- Next Steps Week 2 -->
