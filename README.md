@@ -10,7 +10,7 @@ This is a simple static website designed to feel like a slideshow you scroll thr
 - “Light up” hover + glow effects and scroll-into-view reveal animations
 
 ## Run / Preview
-
+ jdke
 ### Option A: VS Code Live Server (recommended)
 
 1. Install the **Live Server** extension.
