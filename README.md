@@ -8,7 +8,7 @@ This is a simple static website designed to feel like a slideshow you scroll thr
 - Long-form weekly sections (add as much content as you want per week)
 - Clean dark theme (radiant purple/black with green accents)
 - “Light up” hover + glow effects and scroll-into-view reveal animations
-
+iytgyuQ
 ## Run / Preview
  jdke
 ### Option A: VS Code Live Server (recommended)
